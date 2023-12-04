@@ -1,38 +1,95 @@
-.App {
+* {
+  margin: 0;
+}
+
+.startpageimg {
+  top: 50px;
+  height: 522px;
+  width: 649px;
+  position: relative;
+  left: 50px;
+}
+
+.startpage h1 {
+  font-size: 75px;
+}
+
+.startpage button {
+  width: 220px;
+  height: 44px;
+  padding: 10px, 18px, 10px, 18px;
+  border-radius: 5px;
+  gap: 10px;
+  position: relative;
+  left: 182px;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  border-radius: 1px solid transparent;
+  cursor: pointer;
+
+}
+
+.startpage button:hover {
+  color: black;
+  background-color: white;
+  border-radius: 1px solid black;
+
+}
+
+.Totalscore {
+  max-width: 200px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Totalscore h1 {
+  font-size: 100px;
+  line-height: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Totalscore p {
+  font-size: 24px;
+  font-weight: 500;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.topsection {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  padding-top: 20px;
+}
+
+.rolldice {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 35px;
+
+}
+
+.rolldice button {
+  width: 220px;
+  height: 44px;
+  padding: 10px, 18px, 10px, 18px;
+  border-radius: 5px;
+  gap: 10px;
+  position: relative;
+  /* left: 182px; */
+  font-size: 16px;
   color: white;
-}
+  background: rgb(35, 35, 35);
+  border-radius: 1px solid transparent;
+  cursor: pointer;
+  transition: 0.2s background ease-in;
 
-.App-link {
-  color: #61dafb;
 }
+.rolldice button:hover {
+  color: black;
+  background-color: white;
+  border-radius: 1px solid black;
+  transition: 0.1s background ease-in;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.rolldice h1 {
+  margin-bottom: 12px;
 }
